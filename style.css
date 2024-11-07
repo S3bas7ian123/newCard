@@ -4,17 +4,23 @@ html, body {
     height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,header,main,footer,div,nav,li,section {
+h1,h2,h3,h4,h5,h6,header,main,footer,div,nav,li,section,img{
     margin: 0;
     padding: 0;
 }
 
 .mainSet {
     margin: 6rem;
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: blue; */
+}
+
+section {
+    max-width: 600px;
 }
 
 .articleSet {
@@ -25,3 +31,13 @@ h1,h2,h3,h4,h5,h6,header,main,footer,div,nav,li,section {
     border: 5px solid rgb(86, 180, 239);
 }
 
+img {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 1rem;
+}
+
+.containerText {
+    margin-top: 1rem;
+    text-align: justify;
+}
