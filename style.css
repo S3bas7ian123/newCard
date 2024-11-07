@@ -4,7 +4,24 @@ html, body {
     height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,header,main,footer,div,nav,li {
+h1,h2,h3,h4,h5,h6,header,main,footer,div,nav,li,section {
     margin: 0;
     padding: 0;
 }
+
+.mainSet {
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.articleSet {
+    margin: 5rem;
+    padding: 4rem;
+    background-color: #BCCCE0;
+    border-radius: 2rem;
+    border: 5px solid rgb(86, 180, 239);
+}
+
